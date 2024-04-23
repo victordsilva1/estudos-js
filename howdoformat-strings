@@ -1,0 +1,29 @@
+var yname = prompt('Whats your name?')
+
+//Created a variabel yname,where person write your name and afther is stored 
+//in var yname.  
+
+document.write(`You is ${yname} ,he has ${yname.length} letters `)
+//Pega a string inforamada pelo user e escreve na tela ,apos isso a funcao 
+// x.length conta o numero de caracteres 
+
+document.writeln(`All maiuscule is ${yname.toUpperCase()} ` )
+//Escreve tudo maiusculo com x .toUpperCase()
+
+document.writeln(`All minuscle is ${yname.toLowerCase()} `)
+//EScreve tudo em Minusculo with x.toLowerCase()
+
+AND NUMBERS?
+var n1 = 100.4
+>'100.4'
+n1.toFixed(2)
+> '100.40'
+n1.toFixed(4).replace('.', ',')
+>'100,4000'
+
+PARA CONNVERTER PARA DINHEIRO DIRETO: BRL , USD, EUR :
+
+>n1.toLocaleString('pt-BR',{style: 'currency' , currency: 'BRL'})
+>'R$ 1.655,00'
+>n1.toLocaleString('pt-BR',{style: 'currency' , currency: 'USD'})
+>'US$ 1.655,00'
