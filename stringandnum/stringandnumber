@@ -1,0 +1,21 @@
+Como faz faz para as converter as strings em numbers: 
+ 
+Number.parseInt(n) //n is variable
+Number.parseFloat(n) //Nesse caso Int é para inteiros(8) e float(2.5)
+
+Number > String 
+
+String(n)
+n.toString()
+
+*Nao esqueçer as letras maiusculas e minusculas
+
+Concatenacao 
+ 
+var j = 'JavaScript'
+'Esou aprendendo j' //Não vai exibir o que esta na variavel 
+'Estou aprendendo'+ j //Agora sim vai  
+
+Outra forma que acho melhor
+
+`Estou aprendendo ${j}`
