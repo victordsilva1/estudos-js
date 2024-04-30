@@ -1,0 +1,53 @@
+<!--Basic Calc -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Calc</title>
+    <style>
+        body {font:30px Arial ; 
+            background-color: rgb(255, 255, 255);
+            color: rgb(0, 0, 0)
+        }
+        strong {
+            color: yellow;
+            background-color: rgb(41, 40, 40);
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Calculadora Básica</h1>
+    <p>
+        <strong>Rules:</strong><br>
+        1: Informe um desses operadores: <strong>( + ) ( / ) ( * ) ( - )</strong> ; 
+        <br >2: Depois informe 1 Número; 
+        <br>3: Informe outro número;
+        <br>4: F5 para refresh.
+    </p>
+
+
+    <script>
+        var escolha = window.prompt("Informe uma das operaçoẽs: ( + ) ( / ) ( * ) ( - ) ")
+
+        var n1 = prompt("Digite um número: ")
+        var n1 = parseInt(n1)
+        
+        var n2 = prompt("Digite outro número: ")
+        var n2 = parseInt(n2)
+
+        if(escolha == "+")
+        {alert(n1+n2)}
+        else if(escolha == "/" ) 
+        {alert(n1/n2)}
+        else if(escolha == "-")
+        {alert(n1-n2)}
+        else if(escolha == "*")
+        {alert(n1*n2)}
+        else{alert("Number ou Operador Inválido")}
+        
+    </script>
+
+</body>
+</html>
